@@ -1,4 +1,4 @@
-import { Navbar } from "../../ui/components/navbar";
+import { Navbar } from "../../ui/components/Navbar;";
 import { Navigate } from "react-router-dom";
 import {Route, Routes} from 'react-router-dom';
 import { DcPage } from "../pages/DcPage"
