@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { getHeroById } from "../helpers/getHeroById";
 import { Navigate } from "react-router-dom";
+import hero from '../../../Assets'
 
 export const Hero = () => {
 
@@ -24,7 +25,7 @@ export const Hero = () => {
   <div className="row mt-5">
 
     <div className="col-4 animate__animated animate__fadeIn"> 
-      <img src={`../../Assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
+      <img src={`../../../Assets/heroes/${id}.jpg`} alt={hero.superhero} className="img-thumbnail"/>
 
     </div>
 
