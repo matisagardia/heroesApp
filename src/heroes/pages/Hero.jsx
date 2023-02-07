@@ -1,7 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { getHeroById } from "../helpers/getHeroById";
 import { Navigate } from "react-router-dom";
-import hero from '../../../Assets'
 
 export const Hero = () => {
 
