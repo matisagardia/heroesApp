@@ -1,7 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
 import { LoginPage } from '../auth/pages/LoginPage';
 import { HeroesRoutes } from '../heroes/routes/HeroesRoutes';
-import { Navbar } from '../ui/components/navbar';
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 
